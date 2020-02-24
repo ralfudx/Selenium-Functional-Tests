@@ -1,0 +1,43 @@
+{
+  "dashboardurl": "https://evra.geophy.com/login",
+  "email": "qaskillschallenge@geophy.com",
+  "password": "qaskillschallenge@geophy.com",
+  "address": "555 N. College Avenue, Tempe, AZ, 85281",
+  "netOperatingIncome": "2000000",
+  "numberOfUnits": "200",
+  "yearOfConstruction": "2000",
+  "yearOfRenovation": "2010",
+  "occupancy": "80",
+
+  "address2": "665 S. College Avenue, Tempe, AZ, 85281",
+  "netOperatingIncome2": "7000000",
+  "numberOfUnits2": "2000",
+  "yearOfConstruction2": "2002",
+  "yearOfRenovation2": "",
+  "occupancy2": "90",
+
+  "firstName": "Rafa",
+  "lastName": "Rafa",
+  "company": "Geophy",
+
+  "unverifiedEmail": "oausocials2007@yahoo.com",
+
+  "validation": {
+    "successfulLogin": "Welcome back, QA Geophy.",
+    "successfulSignupHeader": "THANK YOU",
+    "loginFormHeader": "LOGIN",
+    "unverifiedEmailLogin": "We cannot find you. If your email address is correct, please validate it by clicking the link in the email sent to you during registered.",
+    "incorrectLoginDetails": "There was an error with your e-mail or password, please try entering your login credentials again.",
+    "registeredEmailSignup": "The email has already been taken.",
+    "firstNameRequiredField": "Please enter your first name.",
+    "lastNameRequiredField": "Please enter your last name.",
+    "emailRequiredField": "The email field is required.",
+    "passwordRequiredField": "The password field is required.",
+    "uncheckedTandC": "Please accept the terms & conditions to proceed.",
+    "propertyHeader": "THE PROPERTY",
+    "valueDriversHeader": "VALUE DRIVERS",
+    "neighborhoodHeader": "THE NEIGHBORHOOD",
+    "searchFormHeader": "Multifamily"
+  }
+
+}
