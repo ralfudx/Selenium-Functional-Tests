@@ -6,6 +6,7 @@ This repository contains a sample test automation project built on xunit framewo
 Please see description of tests below:
 
 **SmokeTest Suite:**
+
 *TC-001: Verify_RunValuation_Details()
 *TC-002: Verify_RunValuation_ModifyInputDetails()
 *TC-003: Verify_SignUp()
@@ -13,6 +14,7 @@ Please see description of tests below:
 *TC-005: Verify_Logout()
 
 **Regression Suite:**
+
 *TC-006: Verify_Login_WithoutEmail()
 *TC-007: Verify_Login_WithoutPassword()
 *TC-008: Verify_Login_WithUnverifiedEmail()
@@ -25,16 +27,19 @@ Please see description of tests below:
 *TC-015: Verify_SignUp_WithRegisteredEmail()
 
 **Architecture of Geophy Showcase Test - (A Selenium .NET Core Project)**
-<kbd>Right</kbd> Page object model using the PageObjects Class
-<kbd>Right</kbd> Data driven approach through a JSon file and using the ConfigurationBuilder Class
-<kbd>Right</kbd> The same driver instance context is shared betwwen all tests using the IClassFixture class Single instance of driver used for all tests
-<kbd>Right</kbd> Screenshot implementation with custom file svaed to a dedicated directory
+
+<kbd>→</kbd> Page object model using the PageObjects Class
+<kbd>→</kbd> Data driven approach through a JSon file and using the ConfigurationBuilder Class
+<kbd>→</kbd> The same driver instance context is shared betwwen all tests using the IClassFixture class Single instance of driver used for all tests
+<kbd>→</kbd> Screenshot implementation with custom file svaed to a dedicated directory
 
 
-*Prerequisites:*
+**Prerequisites:**
+
 *.NET Core SDK v3.1 or higher
 
-*Development Environment:*
+**Development Environment:**
+
 On any terminal (I used Git Bash) move to the "Geophy.Tests" folder (the folder containing the "Geophy.Tests.csproj" file), and execute the following commands:
 
 *dotnet restore
